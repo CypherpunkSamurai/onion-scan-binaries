@@ -1,5 +1,5 @@
 # onion-scan-binaries
-Onionscan precompiled binaries [s-rah/onionscan](https://github.com/s-rah/onionscan)
+Onionscan precompiled binaries [s-rah/onionscan](https://github.com/s-rah/onionscan) for Windows, Linux and MacOS.
 
 # Build Instructions
 * clone [s-rah/onionscan](https://github.com/s-rah/onionscan)
@@ -7,7 +7,13 @@ Onionscan precompiled binaries [s-rah/onionscan](https://github.com/s-rah/onions
   git clone https://github.com/s-rah/onionscan
   ```
 * copy `Makefile` to folder.
+  ```shell
+  cp Makefile onionscan/
+  ```
 * go to folder
+  ```shell
+  cd onionscan
+  ```
 * run command 
   ```shell
   make all
